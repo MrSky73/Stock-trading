@@ -33,26 +33,3 @@ The project uses the following design patterns:
 - **Strategy Pattern**: The `OrderMatchingStrategy` hierarchy allows for various order matching strategies to be implemented. The `PriceTimeOrderMatchingStrategy` is an example of such a strategy.
 
 ## Running the Application
-
-To run the Stock Trading System application, follow these steps:
-
-1. Clone repository.
-   
-   ```bash
-   git clone https://github.com/NalbandyanElmira/StockTradingSystem
-   ```
-
-   ```bash
-   cd StockTradingSystem/build
-   ```
-   
-   ```bash
-   make
-   ```
-   
-2. Execute the compiled binary.
-   ```bash
-   ./my_app
-   ```
-
-3. The application will simulate trading with multiple traders, and the order book will be displayed at the end of the simulation.
